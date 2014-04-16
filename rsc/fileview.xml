@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window size="10,10" bktrans="true" linkfontcolor="#FF000000" linkhoverfontcolor="#FF25ab5e" defaultfontcolor="#FF6F645A">
   <Font name="微软雅黑" size="12" default="true" />
   <Font name="微软雅黑" size="13" bold="true" />
@@ -25,19 +25,19 @@
       <HorizontalLayout height="54" bkimage="main/toolbar_bg.png" inset="0,0,0,0" >
         <Button name="btn_upload" height="54" width="136" normalimage="file='main/Upload.png' source='0,0,136,54'" hotimage="file='main/Upload.png' source='136,0,272,54'" pushedimage="file='main/Upload.png' source='272,0,408,54'" disabledimage="file='main/Upload.png' source='0,0,136,54'" />
         <Control />
-        <Button name="btn_download" padding="0,0,0,0" tooltip="下载" text=""  width="80" height="54" normalimage="file='main/toolbar_download.png' source='0,0,80,54'" hotimage="file='main/toolbar_download.png' source='80,0,160,54'" pushedimage="file='main/toolbar_download.png' source='160,0,240,54'" disabledimage="file='main/toolbar_download.png' source='240,0,320,54'" />
-        <Button name="btn_sort" padding="1,0,0,0" tooltip="排序" text=""  width="80" height="54" normalimage="file='main/toolbar_sort.png' source='0,0,80,54'" hotimage="file='main/toolbar_sort.png' source='80,0,160,54'" pushedimage="file='main/toolbar_sort.png' source='160,0,240,54'" disabledimage="file='main/toolbar_sort.png' source='240,0,320,54'" />
-        <Button name="btn_switchView" visible="true" tooltip="切换浏览视图" text="" padding="1,0,0,0" width="80" height="54" normalimage="file='main/toolbar_Transmission.png' source='0,0,80,54'" hotimage="file='main/toolbar_Transmission.png' source='80,0,160,54'" pushedimage="file='main/toolbar_Transmission.png' source='160,0,240,54'" disabledimage="file='main/toolbar_Transmission.png' source='240,0,320,54'" />
-        <Button name="btn_reflash"  visible="false" tooltip="刷新" text="" padding="15,10,0,0" width="18" height="18" normalimage="file='image/icon_tool.png' source='72,0,90,18'" hotimage="file='image/icon_tool.png' source='90,0,108,18'" pushedimage="file='image/icon_tool.png' source='108,0,126,18'" disabledimage="file='image/icon_tool.png' source='126,0,144,18'" />
-        <Button name="btn_task" tooltip="当前传输任务" text="" padding="1,0,0,0" width="80" height="54" normalimage="file='main/toolbar_Transmission.png' source='0,0,80,54'" hotimage="file='main/toolbar_Transmission.png' source='80,0,160,54'" pushedimage="file='main/toolbar_Transmission.png' source='160,0,240,54'" disabledimage="file='main/toolbar_Transmission.png' source='0,0,80,54'" />
-        <Button name="task_status"  visible="false" font="3" tooltip="当前传输任务" textcolor="#FFFFFFFF" text="" textpadding="0,0,0,2" align="center" padding="-33,15,0,0" width="7" height="7" normalimage="file='image/numtip.png'" />
+        <Button name="btn_download" padding="0,0,0,0" tooltip="Download" text=""  width="80" height="54" normalimage="file='main/toolbar_download.png' source='0,0,80,54'" hotimage="file='main/toolbar_download.png' source='80,0,160,54'" pushedimage="file='main/toolbar_download.png' source='160,0,240,54'" disabledimage="file='main/toolbar_download.png' source='240,0,320,54'" />
+        <Button name="btn_sort" padding="1,0,0,0" tooltip="Sort" text=""  width="80" height="54" normalimage="file='main/toolbar_sort.png' source='0,0,80,54'" hotimage="file='main/toolbar_sort.png' source='80,0,160,54'" pushedimage="file='main/toolbar_sort.png' source='160,0,240,54'" disabledimage="file='main/toolbar_sort.png' source='240,0,320,54'" />
+        <Button name="btn_switchView" visible="true" tooltip="Switch View" text="" padding="1,0,0,0" width="80" height="54" normalimage="file='main/toolbar_Transmission.png' source='0,0,80,54'" hotimage="file='main/toolbar_Transmission.png' source='80,0,160,54'" pushedimage="file='main/toolbar_Transmission.png' source='160,0,240,54'" disabledimage="file='main/toolbar_Transmission.png' source='240,0,320,54'" />
+        <Button name="btn_reflash"  visible="false" tooltip="Refresh" text="" padding="15,10,0,0" width="18" height="18" normalimage="file='image/icon_tool.png' source='72,0,90,18'" hotimage="file='image/icon_tool.png' source='90,0,108,18'" pushedimage="file='image/icon_tool.png' source='108,0,126,18'" disabledimage="file='image/icon_tool.png' source='126,0,144,18'" />
+        <Button name="btn_task" tooltip="Current Tasks" text="" padding="1,0,0,0" width="80" height="54" normalimage="file='main/toolbar_Transmission.png' source='0,0,80,54'" hotimage="file='main/toolbar_Transmission.png' source='80,0,160,54'" pushedimage="file='main/toolbar_Transmission.png' source='160,0,240,54'" disabledimage="file='main/toolbar_Transmission.png' source='0,0,80,54'" />
+        <Button name="task_status"  visible="false" font="3" tooltip="Current Transfer Tasks" textcolor="#FFFFFFFF" text="" textpadding="0,0,0,2" align="center" padding="-33,15,0,0" width="7" height="7" normalimage="file='image/numtip.png'" />
         <Control name="task_placeholder" padding="-17,6,0,0" width="17" height="13" visible="true" />
         <Control name="task_status_ex" width="26" />
       </HorizontalLayout>
       <HorizontalLayout bkcolor="#FFF2F2F2" >
         <NavFolderLink name="navLink" bordersize="0" >
           <VerticalLayout width="51">
-            <Button name="navBack" tooltip="后退" text="" width="23" height="23" padding="27,8,0,0" normalimage="file='main/toolbar_back.png' source='0,0,23,23'" hotimage="file='main/toolbar_back.png' source='23,0,46,23'" pushedimage="file='main/toolbar_back.png' source='46,0,69,23'" disabledimage="file='main/toolbar_back.png' source='69,0,92,23'" />
+            <Button name="navBack" tooltip="Back" text="" width="23" height="23" padding="27,8,0,0" normalimage="file='main/toolbar_back.png' source='0,0,23,23'" hotimage="file='main/toolbar_back.png' source='23,0,46,23'" pushedimage="file='main/toolbar_back.png' source='46,0,69,23'" disabledimage="file='main/toolbar_back.png' source='69,0,92,23'" />
           </VerticalLayout>
        
           <NavText name="navLinkText" align="left" textcolor="#FF000000" font="1" textpadding="10,11,0,0" showhtml="true"/>       
@@ -47,9 +47,9 @@
         </HorizontalLayout>
         <HorizontalLayout width="150" padding="4,6,0,0" visible="false">
           <Edit name="edit_search" width="128" height="26" bkcolor="#FF1FA05D" nativebkcolor="#FF138B44" textcolor="#FFD7FFE4" textpadding="6,3,24,3" normalimage="file='image/search_box.png' source='0,0,6,26' corner='4,4,0,4'"/>
-          <Button name="btn_search" tooltip="搜索" width="22" height="26" normalimage="file='image/search_box.png' source='6,0,28,26'" hotimage="file='image/search_box.png' source='34,0,56,26'" pushedimage="file='image/search_box.png' source='62,0,84,26'" />
+          <Button name="btn_search" tooltip="Search" width="22" height="26" normalimage="file='image/search_box.png' source='6,0,28,26'" hotimage="file='image/search_box.png' source='34,0,56,26'" pushedimage="file='image/search_box.png' source='62,0,84,26'" />
         </HorizontalLayout>
-        <!--<Button name="btn_search" padding="0,10,0,0" tooltip="搜索" text=""  width="18" height="18" normalimage="file='image/icon_tool.png' source='360,0,378,18'" hotimage="file='image/icon_tool.png' source='378,0,396,18'" pushedimage="file='image/icon_tool.png' source='396,0,414,18'" disabledimage="file='image/icon_tool.png' source='414,0,432,18'" />-->
+        <!--<Button name="btn_search" padding="0,10,0,0" tooltip="Search" text=""  width="18" height="18" normalimage="file='image/icon_tool.png' source='360,0,378,18'" hotimage="file='image/icon_tool.png' source='378,0,396,18'" pushedimage="file='image/icon_tool.png' source='396,0,414,18'" disabledimage="file='image/icon_tool.png' source='414,0,432,18'" />-->
         <!--<Control width="10" />-->
       </HorizontalLayout>
       <Control height="2"/>
@@ -60,14 +60,14 @@
       
       <!--导航部分-->
       <VerticalLayout name="categoryLayout" width="135" bkimage="file='main/left_bg.png'">
-        <CategoryOption name="opt_all"    group="category" text="全部" selected="true" textcolor="#FF000000" height="40" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_all.png' dest='28,12,44,28'"/>
-        <CategoryOption name="opt_photo"  group="category" text="图片" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_picture.png' dest='28,12,44,28'"/>
-        <CategoryOption name="opt_doc"    group="category" text="文档" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_document.png' dest='28,12,44,28'"/>
-        <CategoryOption name="opt_music"  group="category" text="音乐" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_music.png' dest='28,12,44,28'"/>
-        <CategoryOption name="opt_video"  group="category" text="视频" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_video.png' dest='28,12,44,28'"/>
-        <CategoryOption name="opt_share"  group="category" text="协作" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_share.png' dest='28,12,44,28'"/>
+        <CategoryOption name="opt_all"    group="category" text="All Files" selected="true" textcolor="#FF000000" height="40" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_all.png' dest='28,12,44,28'"/>
+        <CategoryOption name="opt_photo"  group="category" text="Pictures" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_picture.png' dest='28,12,44,28'"/>
+        <CategoryOption name="opt_doc"    group="category" text="Documents" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_document.png' dest='28,12,44,28'"/>
+        <CategoryOption name="opt_music"  group="category" text="Music" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_music.png' dest='28,12,44,28'"/>
+        <CategoryOption name="opt_video"  group="category" text="Videos" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_video.png' dest='28,12,44,28'"/>
+        <CategoryOption name="opt_share"  group="category" text="Share" height="40" textcolor="#FF000000" textpadding="56,2,0,0" align="left" hotbkcolor="#FFE2E4E8" selectedbkcolor="#FFCAD0D8" normalimage="file='main/icon_share.png' dest='28,12,44,28'"/>
         <Control />
-        <Button name="btn_recycle" text="回收站" height="40" textcolor="#FF000000"  textpadding="56,2,0,0" align="left" normalimage="file='main/icon_recycle_empty.png' dest='28,12,44,28'"/>
+        <Button name="btn_recycle" text="Trash" height="40" textcolor="#FF000000"  textpadding="56,2,0,0" align="left" normalimage="file='main/icon_recycle_empty.png' dest='28,12,44,28'"/>
       </VerticalLayout>
 
       <Control name="splite_line" width="1" bkcolor="#FFCBCACA" visible="false" />

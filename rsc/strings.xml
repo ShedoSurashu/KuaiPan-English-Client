@@ -1,62 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StringResources>
   <Group name="Common">
-    <string name="STR_APPNAME" value="金山云U盘"/>
-    <string name="STR_VERSION_FMT" value="金山云U盘 V%s 版"/>
+    <string name="STR_APPNAME" value="Cloud U Disk"/>
+    <string name="STR_VERSION_FMT" value="Cloud U Disk V%s version"/>
   </Group>
   
   <Group name="ErrorMessage">    
-    <string name="STR_REMOTE_NO_ENOUGH_SPACE" value="远程空间不足"/>
-    <string name="STR_LOCAL_NO_ENOUGH_SPACE" value="本地空间不足"/>
-    <string name="STR_TARGET_EXISTS" value="目标文件已存在" />
-    <string name="STR_TARGET_NOT_EXISTS" value="目标文件不存在" />
-    <string name="STR_PARENT_NOT_EXIST" value ="父目录不存在" />
-    <string name="STR_UNSUPPORT_CHAR" value ="文件名非法" />
-    <string name="STR_PATH_TOO_LONG" value ="文件名过长" />
-    <string name="STR_FILE_NO_EXIST" value ="本地文件不存在" />
-    <string name="STR_LOCAL_FILE_LOCKED" value ="文件被占用" />    
-    <string name="STR_HTTP_TIME_OUT" value ="链接超时" />
-    <string name="STR_HTTP_COULDNT_CONNECT" value ="无法连接服务器" />
-    <string name="STR_HTTP_ERROR" value ="网络错误" />
-    <string name="STR_USER_TOKEN_INVALID" value ="会话过期" />
-    <string name="STR_UNKNOW_ERROR" value ="未知错误" />
-    <string name="STR_LOCAL_FILE_EXISTS" value ="本地已存在" />
-    <string name="STR_SERVER_UNKNOWN_ERROR" value="服务端未知错误" />
-    <string name="STR_SERVER_BUSY" value="服务端忙" />
+    <string name="STR_REMOTE_NO_ENOUGH_SPACE" value="Not enough cloud space."/>
+    <string name="STR_LOCAL_NO_ENOUGH_SPACE" value="Not enough local space."/>
+    <string name="STR_TARGET_EXISTS" value="Target file already exists." />
+    <string name="STR_TARGET_NOT_EXISTS" value="Target file doesn't exist." />
+    <string name="STR_PARENT_NOT_EXIST" value ="Parent folder doesn't exist." />
+    <string name="STR_UNSUPPORT_CHAR" value ="Illegal file name." />
+    <string name="STR_PATH_TOO_LONG" value ="File name too long." />
+    <string name="STR_FILE_NO_EXIST" value ="Local file doesn't exist." />
+    <string name="STR_LOCAL_FILE_LOCKED" value ="File is currently in use." />    
+    <string name="STR_HTTP_TIME_OUT" value ="Connection timed out." />
+    <string name="STR_HTTP_COULDNT_CONNECT" value ="Can't connect to server." />
+    <string name="STR_HTTP_ERROR" value ="Network error." />
+    <string name="STR_USER_TOKEN_INVALID" value ="Session expired." />
+    <string name="STR_UNKNOW_ERROR" value ="Unknown error." />
+    <string name="STR_LOCAL_FILE_EXISTS" value ="Local file already exists." />
+    <string name="STR_SERVER_UNKNOWN_ERROR" value="Unknown server error." />
+    <string name="STR_SERVER_BUSY" value="The server is busy." />
     
-    <string name="STR_CREATE_FOLDER_ERROR" value ="对不起，创建目录失败，请选择其他目录！" />
-    <string name="STR_CAN_NOT_COPY_TO_CHILD_FOLDER" value="目标文件夹是源文件夹的子文件夹，无法复制！" />
+    <string name="STR_CREATE_FOLDER_ERROR" value ="Creation of folder failed. Choose another one." />
+    <string name="STR_CAN_NOT_COPY_TO_CHILD_FOLDER" value="The destination is a subfolder of the source folder." />
 
-    <string name="STRID_ERROR_ACCOUNT_SELECTDIR_HINT_MOVEFAIL" value="移动同步文件夹时遇到问题，云U盘仍然使用%s作为同步位置" />
-    <string name="STRID_ERROR_ADD_SELECTIVE_SYNC_PATH" value="您最多只能有5个选择性同步目录" />
+    <string name="STRID_ERROR_ACCOUNT_SELECTDIR_HINT_MOVEFAIL" value="An error occured while trying to sync. Cloud U Disk %s is still currently busy." />
+    <string name="STRID_ERROR_ADD_SELECTIVE_SYNC_PATH" value="You can only have 5 selective sync folders." />
   </Group>
 
   <Group name="login">
-    <string name="STR_LOGIN_TITLE" value="登录" />
-    <string name="STR_LOGIN_LOGING" value="正在登录..." />
-    <string name="STR_LOGIN_NOT_MATCH" value="用户名或密码错误" />
-    <string name="STR_LOGIN_PASSWORD_ERR" value="密码错误，请注意解锁密码不一定是登录密码" />
-    <string name="STR_LOGIN_NOT_ACTIVE" value="账号未激活" />
-    <string name="STR_LOGIN_FMT_UNKNOW_ERR"  value="未知错误:%u" />
-    <string name="STR_LOGIN_FMT_NETWORK_ERR" value="网络错误:%u" />
-    <string name="STR_LOGIN_FMT_HTTP_ERR" value="http错误:%u" />
-    <string name="STR_LOGIN_TIMEOUT" value="网络请求超时，请检查网络。" />
-    <string name="STR_LOGIN_COULDTCONNECTERR" value="无法链接远程服务器，请检查网络。"/>
-    <string name="STR_LOGIN_ACNT_ALREADY" value="账号已存在，{a}立即登录{/a}"/>
-    <string name="STRID_LOGIN_QQACCOUNTNOTSAME" value="登录的不是同一个QQ账号" />
-    <string name="STRID_LOGIN_SINAACCOUNTNOTSAME" value="登录的不是同一个新浪账号" />
+    <string name="STR_LOGIN_TITLE" value="Login" />
+    <string name="STR_LOGIN_LOGING" value="Logging in..." />
+    <string name="STR_LOGIN_NOT_MATCH" value="Username or password error." />
+    <string name="STR_LOGIN_PASSWORD_ERR" value="Wrong password." />
+    <string name="STR_LOGIN_NOT_ACTIVE" value="Inactive account." />
+    <string name="STR_LOGIN_FMT_UNKNOW_ERR"  value="Unknown Error:%u" />
+    <string name="STR_LOGIN_FMT_NETWORK_ERR" value="Network Error:%u" />
+    <string name="STR_LOGIN_FMT_HTTP_ERR" value="HTTP Error:%u" />
+    <string name="STR_LOGIN_TIMEOUT" value="Network request timed out." />
+    <string name="STR_LOGIN_COULDTCONNECTERR" value="Unable to link to remote server."/>
+    <string name="STR_LOGIN_ACNT_ALREADY" value="Account already exists，{a}login{/a}."/>
+    <string name="STRID_LOGIN_QQACCOUNTNOTSAME" value="Login QQ account is not the same." />
+    <string name="STRID_LOGIN_SINAACCOUNTNOTSAME" value="Login Sina account is not the same." />
   </Group>
 
   <Group name="tasklistdlg">
     <string name="STR_OPT_REPLACE" value="{a}覆盖{/a}" />
-    <string name="STR_OPT_CONTINU" value="{a}继续{/a}" />
-    <string name="STR_OPT_RETRY" value="{a}请重试{/a}" />
-    <string name="STR_OPT_SAVEAS" value="{a}另存为{/a}" />
-    <string name="STR_TASK_STATUS_PENDING" value="正在等待" />
-    <string name="STR_TASK_STATUS_INDEXING" value="正在索引文件"/>
-    <string name="STR_TASK_STATUS_TRANSFER" value="正在传输"/>
+    <string name="STR_OPT_CONTINU" value="{a}Continue{/a}" />
+    <string name="STR_OPT_RETRY" value="{a}Retry{/a}" />
+    <string name="STR_OPT_SAVEAS" value="{a}Save as...{/a}" />
+    <string name="STR_TASK_STATUS_PENDING" value="Waiting..." />
+    <string name="STR_TASK_STATUS_INDEXING" value="Indexing..."/>
+    <string name="STR_TASK_STATUS_TRANSFER" value="Trasnferring..."/>
     
-    <string name="STR_TASK_HASH_FORMAT" value="正在校验%d" />    
+    <string name="STR_TASK_HASH_FORMAT" value="Verifying %d..." />    
   </Group>
 
   <Group name="PublicLink">

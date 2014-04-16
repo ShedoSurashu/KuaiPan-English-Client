@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window size="800,600" mininfo="460,560" maxinfo="1024,672" sizebox="8,6,6,8" bktrans="false" linkfontcolor="#FFD7FFE4" linkhoverfontcolor="#FFD7FFE4" caption="11,15,15,100" roundcorner="0,0" xmlns="http://tempuri.org/skin.xsd">
   <Font name="微软雅黑" size="12" default="true" />
   <Font name="微软雅黑" size="13" bold="true" />
@@ -41,7 +41,7 @@
     <HorizontalLayout bkcolor="#FFFAFAFA" bkimage="file='image/status_bg.png' corner='0,0,4,0' source='0,0,9,24'"  height="24" inset="6,0,10,0" visible="false">      
       <Text name="statusBarText" minwidth="200" textcolor="#FFA19A93" textpadding="0,5,0,0" showhtml="false"/>
       <Control  />
-      <Button name="btnweb" text="打开网页版" width="84" height="20" textpadding="22,2,0,0" padding="0,4,0,0" textcolor="#FFA19A93" hottextcolor="#FFB4A8A0" pushedtextcolor="#FF6F645A" normalimage="file='image/btnweb.png' source='0,0,13,13' dest='8,5,21,18'" hotimage="file='image/btnweb.png' source='13,0,26,13' dest='8,5,21,18'" pushedimage="file='image/btnweb.png' source='26,0,39,13' dest='8,5,21,18'" />
+      <Button name="btnweb" text="Open Web Version" width="84" height="20" textpadding="22,2,0,0" padding="0,4,0,0" textcolor="#FFA19A93" hottextcolor="#FFB4A8A0" pushedtextcolor="#FF6F645A" normalimage="file='image/btnweb.png' source='0,0,13,13' dest='8,5,21,18'" hotimage="file='image/btnweb.png' source='13,0,26,13' dest='8,5,21,18'" pushedimage="file='image/btnweb.png' source='26,0,39,13' dest='8,5,21,18'" />
     </HorizontalLayout>
   </VerticalLayout>
 

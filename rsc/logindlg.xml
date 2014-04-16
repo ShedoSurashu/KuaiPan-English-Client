@@ -71,7 +71,7 @@
     <Control height="1" bkcolor="#FFFFFFFF" />
 
     <HorizontalLayout name="footerLayout" height="42" inset="70,12,0,0" bkcolor="#FFFFFFFF" >
-      <Text name="txtregister" showhtml="true" text="{c #6F645A}No account yet?{/c} {a}Register{/a}" />
+      <Text name="txtregister" showhtml="true" text="{c #6F645A}No account yet?{/c} {a}Register Now{/a}" />
     </HorizontalLayout>    
   </VerticalLayout>  
 </Window>
