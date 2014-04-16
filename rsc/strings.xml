@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringResources>
+  <Group name="Common">
+    <string name="STR_APPNAME" value="金山云U盘"/>
+    <string name="STR_VERSION_FMT" value="金山云U盘 V%s 版"/>
+  </Group>
+  
+  <Group name="ErrorMessage">    
+    <string name="STR_REMOTE_NO_ENOUGH_SPACE" value="远程空间不足"/>
+    <string name="STR_LOCAL_NO_ENOUGH_SPACE" value="本地空间不足"/>
+    <string name="STR_TARGET_EXISTS" value="目标文件已存在" />
+    <string name="STR_TARGET_NOT_EXISTS" value="目标文件不存在" />
+    <string name="STR_PARENT_NOT_EXIST" value ="父目录不存在" />
+    <string name="STR_UNSUPPORT_CHAR" value ="文件名非法" />
+    <string name="STR_PATH_TOO_LONG" value ="文件名过长" />
+    <string name="STR_FILE_NO_EXIST" value ="本地文件不存在" />
+    <string name="STR_LOCAL_FILE_LOCKED" value ="文件被占用" />    
+    <string name="STR_HTTP_TIME_OUT" value ="链接超时" />
+    <string name="STR_HTTP_COULDNT_CONNECT" value ="无法连接服务器" />
+    <string name="STR_HTTP_ERROR" value ="网络错误" />
+    <string name="STR_USER_TOKEN_INVALID" value ="会话过期" />
+    <string name="STR_UNKNOW_ERROR" value ="未知错误" />
+    <string name="STR_LOCAL_FILE_EXISTS" value ="本地已存在" />
+    <string name="STR_SERVER_UNKNOWN_ERROR" value="服务端未知错误" />
+    <string name="STR_SERVER_BUSY" value="服务端忙" />
+    
+    <string name="STR_CREATE_FOLDER_ERROR" value ="对不起，创建目录失败，请选择其他目录！" />
+    <string name="STR_CAN_NOT_COPY_TO_CHILD_FOLDER" value="目标文件夹是源文件夹的子文件夹，无法复制！" />
+
+    <string name="STRID_ERROR_ACCOUNT_SELECTDIR_HINT_MOVEFAIL" value="移动同步文件夹时遇到问题，云U盘仍然使用%s作为同步位置" />
+    <string name="STRID_ERROR_ADD_SELECTIVE_SYNC_PATH" value="您最多只能有5个选择性同步目录" />
+  </Group>
+
+  <Group name="login">
+    <string name="STR_LOGIN_TITLE" value="登录" />
+    <string name="STR_LOGIN_LOGING" value="正在登录..." />
+    <string name="STR_LOGIN_NOT_MATCH" value="用户名或密码错误" />
+    <string name="STR_LOGIN_PASSWORD_ERR" value="密码错误，请注意解锁密码不一定是登录密码" />
+    <string name="STR_LOGIN_NOT_ACTIVE" value="账号未激活" />
+    <string name="STR_LOGIN_FMT_UNKNOW_ERR"  value="未知错误:%u" />
+    <string name="STR_LOGIN_FMT_NETWORK_ERR" value="网络错误:%u" />
+    <string name="STR_LOGIN_FMT_HTTP_ERR" value="http错误:%u" />
+    <string name="STR_LOGIN_TIMEOUT" value="网络请求超时，请检查网络。" />
+    <string name="STR_LOGIN_COULDTCONNECTERR" value="无法链接远程服务器，请检查网络。"/>
+    <string name="STR_LOGIN_ACNT_ALREADY" value="账号已存在，{a}立即登录{/a}"/>
+    <string name="STRID_LOGIN_QQACCOUNTNOTSAME" value="登录的不是同一个QQ账号" />
+    <string name="STRID_LOGIN_SINAACCOUNTNOTSAME" value="登录的不是同一个新浪账号" />
+  </Group>
+
+  <Group name="tasklistdlg">
+    <string name="STR_OPT_REPLACE" value="{a}覆盖{/a}" />
+    <string name="STR_OPT_CONTINU" value="{a}继续{/a}" />
+    <string name="STR_OPT_RETRY" value="{a}请重试{/a}" />
+    <string name="STR_OPT_SAVEAS" value="{a}另存为{/a}" />
+    <string name="STR_TASK_STATUS_PENDING" value="正在等待" />
+    <string name="STR_TASK_STATUS_INDEXING" value="正在索引文件"/>
+    <string name="STR_TASK_STATUS_TRANSFER" value="正在传输"/>
+    
+    <string name="STR_TASK_HASH_FORMAT" value="正在校验%d" />    
+  </Group>
+
+  <Group name="PublicLink">
+    <string name="STR_PUBLINK_GETTING" value="正在获取外链..." />
+    <string name="STR_PUBLINK_FAILED" value="获取分享链接失败，请重试" />
+    <string name="STR_PUBLINK_DELLINK" value="成功取消分享链接                     " />
+    <string name="STR_PUBLINK_DELLINK_FAILED" value="取消分享链接失败" />
+    <string name="STR_PUBLINK_CODE" value="访问密码：" />
+    <string name="STR_PUBLINK_CODELINK" value="{a}生成访问密码{/a}" />
+    <string name="STR_PUBLINK_CANCLE_CODELINK" value="{a}取消访问密码{/a}" />
+
+    <string name="STR_PUBLINK_CLAN_EXIST" value="该文件的父目录(或子目录)已被发布为外链。" />
+    <string name="STR_PUBLINK_REVIEWING" value="文件名含有敏感词，需要审核后才能开放下载。" />
+    <string name="STR_PUBLINK_BAD_FNAME" value="文件名在黑名单中。" />
+    <string name="STR_PUBLINK_BAD_SHA1" value="文件内容在黑名单中。" />
+    <string name="STR_PUBLINK_TOO_OFTEN" value="发布外链过于频繁，请稍后再试。" />
+    <string name="STR_PUBLINK_REJECT" value="该文件审查未通过。" />
+    <string name="STR_PUBLINK_EMPTY_FILE" value="该文件内容为空，不能发布外链" />
+    <string name="STR_PUBLINK_DEEPTH_OVER_LIMIT" value="文件夹深度或文件数量已达外链最大限制" />
+    <string name="STR_PUBLINK_UNKNOW" value="可能遇到网络问题，请重试。" />
+
+    <string name="STR_PUBLINK_WEIBO_SHARE" value="我正在使用 @快盘 分享了文件 %s，欢迎大家下载分享" />
+
+    <string name="STR_PUBLINK_WEIBO_SHARE_QQ" value="我正在使用 @金山快盘 分享了文件 %s，欢迎大家下载分享" />
+    <string name="STR_PUBLINK_WEIBO_SHARE_RENREN" value="我正在使用 @金山快盘 分享了文件 %s，欢迎大家下载分享" />
+
+    <string name="STR_PUBLINK_WEIBO_SHARE_TEXT" value="{p}我正在使用 @快盘 分享了文件 %s，欢迎大家下载分享{/p}{p}文件地址：%s{/p}" />
+    <!--<string name="STR_PUBLINK_EMAIL_SHARE_TEXT" value="您的好友%s通过金山快盘给您分享了一个文件“%s”" />
+		<string name="STR_PUBLINK_SENDMAIL_SUCCESS" value="已成功发送邮件给对方。" />
+		<string name="STR_PUBLINK_SENDMAIL_FAIL" value="给对方发送邮件失败，请稍后重试。" />
+		<string name="STR_PUBLINK_EMAILHINT" value="多个邮箱用“;”隔开" />-->
+  </Group>
+
+
+  <Group name="statusText">
+    <string name="STR_STATUS_SELECT_FILES" value="已选中 %d 个文件" />
+  </Group>
+  <Group name="settingdlg">
+    <string name="STR_SETPATH_SUCCESS" value="设置" />
+  </Group>
+  <Group name="settingdlg">
+    <string name="STRID_FEEDBACK" value="反馈问题" />
+    <string name="STR_FEEDBACK_DEFAULT" value="请尽量详细的描述您的问题:
+包括云U盘的版本号，您的操作步骤，故障信息等内容（最多500字）" />
+  </Group>
+  <Group name="messagebox">
+    <string name="STR_RENAME_INVALIDE" value="此文件夹是云U盘系统文件夹，无法重命名。"/>
+    <string name="STR_OK_KNOWN" value="我知道了" />
+    <string name="STR_ERROR_RUNNING_TASK_CANNOT_DOWNLOAD" value="对不起，正在执行的任务无法进行下载！
+稍后请重试！" />
+    <string name="STR_ERROR_RUNNING_TASK_CANNOT_DELETE" value="对不起，正在执行的任务无法进行删除操作！
+稍后请重试！" />
+  </Group>
+</StringResources>

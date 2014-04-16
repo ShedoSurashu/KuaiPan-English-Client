@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="200,1" bktrans="true" caption="0,0,0,0" linkfontcolor="#FF3fb2f5"  roundcorner="7,7" xmlns="http://tempuri.org/skin.xsd">
+  <Font name="微软雅黑" size="12" default="true" />
+	<VerticalLayout name="IE_panel" bkcolor="#FFEEF7FD" bordercolor="#FFEEF7FD" bordersize="0" height="66">
+		<TitleBar name="titleBar" height="30" caption="快盘" showmin="true" showmax="true" showclose="true"/>
+		<WebBrowser name="web_balloon" delaycreate="false" padding="0,0,0,0"/>
+	</VerticalLayout>		
+</Window>

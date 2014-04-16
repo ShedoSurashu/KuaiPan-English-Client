@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="800,600" mininfo="460,560" maxinfo="1024,672" sizebox="8,6,6,8" bktrans="false" linkfontcolor="#FFD7FFE4" linkhoverfontcolor="#FFD7FFE4" caption="11,15,15,100" roundcorner="0,0" xmlns="http://tempuri.org/skin.xsd">
+  <Font name="微软雅黑" size="12" default="true" />
+  <Font name="微软雅黑" size="13" bold="true" />
+  <Font name="微软雅黑" size="20"  />
+  <Font name="宋体" size="10"  />
+  <Font name="微软雅黑" size="12" underline="true"/>
+
+  <Include source="scrollbar.xml" />
+
+  <VerticalLayout name="bkgLayout" bkimage="file='main/main_bg.png' corner='4,130,4,4'" inset="1,1,1,1">
+    <VerticalLayout height="70">      
+      <!--标题-->
+      <HorizontalLayout name="titleLayout" height="70" >
+        <HorizontalLayout bordersize="0">
+          <Control bkimage="file='main/title_logo.png'" width="138" height="32" padding="30,20,0,0"/>
+          <!--<Label name="title" textcolor="FFD7FFE4"/>-->
+        </HorizontalLayout>
+        
+        <HorizontalLayout >
+          <Control />
+          <Option name="UserInfoBtn" height="30" endellipsis="true" textcolor="#FFFFFFFF" />
+          <Button name="btnset" padding="15,5,0,0" width="20" height="20" normalimage="file='main/title_menu.png' source='0,0,20,20'" hotimage="file='main/title_menu.png' source='20,0,40,20'" pushedimage="file='main/title_menu.png' source='40,0,60,20'" tooltip="设置" />
+          <Button name="btnmin" padding="7,5,0,0" width="20" height="20" normalimage="file='main/title_mini.png' source='0,0,20,20'" hotimage="file='main/title_mini.png' source='20,0,40,20'" pushedimage="file='main/title_mini.png' source='40,0,60,20'" tooltip="最小化"/>
+          <Button name="btnclose" padding="7,5,0,0" width="20" height="20" normalimage="file='image/title_close.png' source='0,0,20,20'" hotimage="file='image/title_close.png' source='20,0,40,20'" pushedimage="file='image/title_close.png' source='40,0,60,20'" tooltip="关闭" />
+          <Control width="6" />
+        </HorizontalLayout>
+      </HorizontalLayout>
+
+      <!--上传部分-->
+      <HorizontalLayout visible="false" >
+        <Control height="1" />
+        <Button name="btn_upload" align="left" textpadding="25,0,0,0" borderround="4,4" width="132" height="52" normalimage="file='image/uploadbutton.png' source='0,0,132,52'" hotimage="file='image/uploadbutton.png' source='132,0,264,52'" pushedimage="file='image/uploadbutton.png' source='264,0,396,52'"/>
+        <Control height="1" />
+      </HorizontalLayout>
+    </VerticalLayout>
+    <HorizontalLayout bkcolor="#FFFAFAFA">
+      <FileViewContainer name="fileview_container" xmlfile="fileview.xml" visible="true" />
+    </HorizontalLayout>
+    <!--状态栏-->
+    <HorizontalLayout bkcolor="#FFFAFAFA" bkimage="file='image/status_bg.png' corner='0,0,4,0' source='0,0,9,24'"  height="24" inset="6,0,10,0" visible="false">      
+      <Text name="statusBarText" minwidth="200" textcolor="#FFA19A93" textpadding="0,5,0,0" showhtml="false"/>
+      <Control  />
+      <Button name="btnweb" text="打开网页版" width="84" height="20" textpadding="22,2,0,0" padding="0,4,0,0" textcolor="#FFA19A93" hottextcolor="#FFB4A8A0" pushedtextcolor="#FF6F645A" normalimage="file='image/btnweb.png' source='0,0,13,13' dest='8,5,21,18'" hotimage="file='image/btnweb.png' source='13,0,26,13' dest='8,5,21,18'" pushedimage="file='image/btnweb.png' source='26,0,39,13' dest='8,5,21,18'" />
+    </HorizontalLayout>
+  </VerticalLayout>
+
+</Window>

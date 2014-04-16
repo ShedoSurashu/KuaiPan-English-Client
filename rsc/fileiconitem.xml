@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <FileIconItem menu="true" width="120" height="142" bordersize="0">
+    <ContainerItem name="container" menu="true" >
+      <VerticalLayout menu="false"  name="fileInfoUI" inset="0,0,0,0" mouse="false">
+        <HorizontalLayout width="120" height="100"  bordersize="0" mouse="false">
+          <Control height="1"/>
+          <Icon name="fileIcon" width="96" height="96" padding="0,3,0,0" align="center" mouse="false"/>
+          <Control height="1" />
+        </HorizontalLayout>
+        <Edit name="nameEdit" text="" showhtml="true" visible="false" bordersize="1" bordercolor="#FF6F645A" textpadding="4,0,1,0" textcolor="#FF6F645A" />
+        <VerticalLayout height="34" width="120" padding="0,3,0,0">
+          <Label name="fileName" align="top|center" height="34" text=""  showhtml="false" visible="true" textcolor="#FF000000" multiline="true" endellipsis="true" textpadding="2,0,0,0" mouse="false" bordersize="0" />
+        </VerticalLayout>
+        <Progress name="itemprogress" float="true" pos="17,88,103,94" align="center" visible="false" mouse="false" value="0" bkimage="file='image/loadingbar_bg.png' corner='2,2,2,2'" foreimage="file='image/loadingbar.png' corner='2,2,2,2'"/>
+        <Control float="true" name="statusIcon" pos="5,40,20,55" visible="false" mouse="false" bkimage="file='image/icon_err.png'"/>
+      </VerticalLayout>
+    </ContainerItem>
+  </FileIconItem>
+</Window>

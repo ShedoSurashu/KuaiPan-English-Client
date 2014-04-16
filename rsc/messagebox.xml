@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="482,205" minsize="482,205" caption="0,0,0,40"  roundcorner="3,3" xmlns="http://tempuri.org/skin.xsd">
+	<Font name="微软雅黑" size="12" default="true" />
+	<Font name="微软雅黑" size="14" />
+  <Default name="Button" value="textcolor=&quot;#FF333333&quot; normalimage=&quot;file='image/btn.png' source='0,0,7,26' corner='2,2,2,2'&quot; hotimage=&quot;file='image/btn.png' source='7,0,14,26' corner='2,2,2,2'&quot; pushedimage=&quot;file='image/btn.png' source='14,0,21,26' corner='2,2,2,2'&quot; disabledimage=&quot;file='image/btn.png' source='21,0,28,26' corner='2,2,2,2'&quot;"/>
+
+  <VerticalLayout bkimage="file='image/normal_bg.png' corner='4,47,4,4'" inset="1,1,1,1">
+    <HorizontalLayout name="titleLayout" height="40" >
+      <HorizontalLayout inset="6,0,0,0">        
+        <Label text="提示" name="title" font="1" textcolor="#FFD7FFE4" padding="3,0,0,0"/>
+      </HorizontalLayout>
+      <Control height="1" />
+      <HorizontalLayout width="37" padding="0,0,0,0">
+        <Button name="btnclose" padding="10,10,0,0" width="20" height="20" normalimage="file='image/title_close.png' source='0,0,20,20'" hotimage="file='image/title_close.png' source='20,0,40,20'" pushedimage="file='image/title_close.png' source='40,0,60,20'" tooltip="关闭" />
+      </HorizontalLayout>
+    </HorizontalLayout>
+
+    <HorizontalLayout name="midLayout" inset="30,25,30,20" >
+      <Control name="icon" height="36" width="36" visible="false" padding="20,25,0,0"/>
+      <VerticalLayout name="contentLayout" >
+        <Text name="content" showhtml="false" align="left|vcenter" textcolor="#FF333333" font="1" />      
+      </VerticalLayout>
+    </HorizontalLayout>
+    
+    <HorizontalLayout name="btnLayout" height="50" childpadding="16" inset="0,0,20,0" >
+      <Control />
+      <Button name="btnyes" visible="false" width="106" height="35" text="是" font="1" textcolor="#FFFFFFFF" normalimage="file='image/green_btn.png' source='0,0,106,35' corner='2,2,2,2'" hotimage="file='image/green_btn.png' source='106,0,212,35' corner='2,2,2,2'" pushedimage="file='image/green_btn.png' source='212,0,318,35' corner='2,2,2,2'" />
+      <Button name="btnno" visible="false" width="106" height="35" text="否" font="1" textcolor="#FF000000" normalimage="file='image/white_btn.png' source='0,0,106,35' corner='2,2,2,2'" hotimage="file='image/white_btn.png' source='106,0,212,35' corner='2,2,2,2'" pushedimage="file='image/white_btn.png' source='212,0,318,35' corner='2,2,2,2'" />
+      <Button name="btnok" visible="false" width="106" height="35" text="确定" font="1" textcolor="#FFFFFFFF" normalimage="file='image/green_btn.png' source='0,0,106,35' corner='2,2,2,2'" hotimage="file='image/green_btn.png' source='106,0,212,35' corner='2,2,2,2'" pushedimage="file='image/green_btn.png' source='212,0,318,35' corner='2,2,2,2'" />
+      <Button name="btncancle" visible="false" width="106" height="35" text="取消" font="1" textcolor="#FF000000" normalimage="file='image/white_btn.png' source='0,0,106,35' corner='2,2,2,2'" hotimage="file='image/white_btn.png' source='106,0,212,35' corner='2,2,2,2'" pushedimage="file='image/white_btn.png' source='212,0,318,35' corner='2,2,2,2'" />
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window linkfontcolor="#FF1FA663">
+  <SyncTaskItem height="56">
+    <HorizontalLayout>
+      <VerticalLayout inset="2,0,2,1" menu="true">
+        <HorizontalLayout inset="12,12,4,4">
+          <Icon name="itemicon" width="34" height="34" normalimage="file='image/icon_synchronous.png'" mouse="false"/>
+
+          <VerticalLayout name="textLayout" padding="7,0,0,0">
+            <HorizontalLayout>
+              <Label name="itemfilename" padding="10,0,0,0" text="自动同步" maxwidth="96" endellipsis="true" height="15" textcolor="#FF6F645A" mouse="false"/>
+              <Control height="4"/>
+            </HorizontalLayout>
+
+            <HorizontalLayout padding="7,2,0,0">
+              <Label name="itemtip" text="" textcolor="#FFA19A93" mouse="false" width="110"/>
+              <Progress name="itemprogress" padding="5,5,0,0" height="7" width="125" mouse="false" value="4" bkimage="file='image/progressbg.png' corner='3,4,3,3'" foreimage="file='image/progressfg.png' corner='3,4,3,3'"/>
+              <Control width="10"/>
+              <Text name="itemspeed" text="" textcolor="#FFA19A93" mouse="false" width="80" />
+              <Text name="resttime" textcolor="#FFA19A93" mouse="false" visible="false"/>
+              <Control height="4"/>
+            </HorizontalLayout>
+          </VerticalLayout>
+
+        </HorizontalLayout>
+
+        <!--  
+      <Control bkcolor="#FFEDEDED" height="1" />
+      -->
+      </VerticalLayout>
+      <HorizontalLayout width="65" >
+        <Button name="btnPause" height="18" width="18" padding="27,19,0,0" normalimage="file='image\list_pause.png' source='0,0,18,18'" hotimage="file='image\list_pause.png' source='18,0,36,18'" pushedimage="file='image\list_pause.png' source='36,0,54,18'" />
+        <Button name="btnRun" height="18" width="18" padding="27,19,0,0" normalimage="file='image\list_start.png' source='0,0,18,18'" hotimage="file='image\list_start.png' source='18,0,36,18'" pushedimage="file='image\list_start.png' source='36,0,54,18'" />
+      </HorizontalLayout>
+    </HorizontalLayout>
+  </SyncTaskItem>
+</Window>

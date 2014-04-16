@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window linkfontcolor="#FF1FA663">
+  <CompleteListItem height="56">
+    <HorizontalLayout>
+      <HorizontalLayout inset="12,12,4,4" menu="true">
+        <Icon name="itemicon" width="34" height="34" normalimage="file='image/normal_icon.png' dest='1,2,31,30'" mouse="false"/>
+        <VerticalLayout name="textLayout" padding="14,0,0,0">
+          <Label name="itemfilename" text="klive.jpg" maxwidth="300" endellipsis="true" height="15" textcolor="#FF000000" mouse="false"/>
+          <Label name="filePath" text="" textcolor="#FFA19A93" mouse="false" width="300" endellipsis="true" />
+        </VerticalLayout>
+      </HorizontalLayout>
+      <HorizontalLayout width="65" >
+        <Button name="btnOpenPath" height="18" width="18" padding="0,18,0,0" normalimage="file='image\list_open.png' source='0,0,18,18'" hotimage="file='image\list_open.png' source='18,0,36,18'" pushedimage="file='image\list_open.png' source='36,0,54,18'" />
+        <Button name="btnDelete" height="18" width="18" padding="12,19,0,0" normalimage="file='image\list_close.png' source='0,0,18,18'" hotimage="file='image\list_close.png' source='18,0,36,18'" pushedimage="file='image\list_close.png' source='36,0,54,18'" />
+      </HorizontalLayout>
+    </HorizontalLayout>
+  </CompleteListItem>
+</Window>

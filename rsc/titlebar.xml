@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<HorizontalLayout bkimage="file='common\messagebox_normal_windows.png' source='1,1,101,30' ">
+		<HorizontalLayout name="winIconLayout" >
+			<Container visible="false" name="winIcon" width="30" bkimage="file='common\icon.png' source='0,0,16,16' dest='5,12,21,28' " />
+			<Label name="winTitle" endellipsis="true" text="关于" textcolor="#FFffffff" align="left" padding="8,2,0,0"/>
+		</HorizontalLayout>
+		<HorizontalLayout name="sysBtnLayout" width="74" padding="0,0,0,0">
+			<Button name="sys_minbtn" padding="0,3,0,0" width="30" height="22" normalimage="file='common\minibtn.png' source='0,0,30,22'" hotimage="file='common\minibtn.png' source='0,22,30,44'" pushedimage="file='common\minibtn.png' source='0,44,30,66'" />
+			<Button name="sys_closebtn" padding="0,3,0,0" width="44" height="22" normalimage="file='common/closebtn.png' source='0,0,44,22'" hotimage="file='common/closebtn.png' source='0,22,44,44'" pushedimage="file='common/closebtn.png' source='0,44,44,66'" tooltip="关闭" />
+		</HorizontalLayout>
+	</HorizontalLayout>
+</Window>

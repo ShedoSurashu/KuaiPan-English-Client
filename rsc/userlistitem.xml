@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <UserItem height="30">
+    <HorizontalLayout inset="0,0,6,0">
+      <Control name="item_icon" visible="false" bkimage="account/disk.png" width="20" height="40" padding="0,8,0,0" />
+      <VerticalLayout inset="4,2,0,2">
+        <Text name="item_user" mouse="false" textcolor="FF6F645A" align="top" padding="0,4,0,0" height="20"/>
+        <Text name="item_tip" visible="false" mouse="false" showhtml="true" textcolor="#FFFFFFFF" />
+      </VerticalLayout>
+      
+      <Button name="item_del" visible="false" width="17" height="17" padding="0,6,0,0" tooltip="删除" normalimage="file='image/deluser.png' source='0,0,17,17'" hotimage="file='image/deluser.png' source='17,0,34,17'" pushedimage="file='image/deluser.png' source='34,0,51,17'"/>
+      
+    </HorizontalLayout>
+  </UserItem>
+</Window>

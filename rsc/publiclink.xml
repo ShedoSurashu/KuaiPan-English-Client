@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window name="win" size="500,360" caption="0,0,0,32" linkfontcolor="#FF3fb2f5"  roundcorner="0,0" xmlns="http://tempuri.org/skin.xsd">
+  <Include source="scrollbar.xml" />
+  <Font name="微软雅黑" size="12" default="true" />
+  <Font name="微软雅黑" size="12" bold="true" />
+  <!--<Default name="Button" value="normalimage=&quot;file='common/btn_normal.png' source='0,0,72,34'&quot; hotimage=&quot;file='common/btn_hover.png' source='0,0,72,34'&quot; pushedimage=&quot;file='common/btn_pushed.png' source='0,0,72,34'&quot;" />-->
+  <Default name="Validator" value="bkimage=&quot;file='image/balloon_bg.png' corner='1,1,1,1'&quot; arrowimage=&quot;file='image/balloon_arrow.png' source='0,0,11,11'&quot;" />
+  <VerticalLayout bkcolor="#FFFFFFFF" bordercolor="#FFDEDEDE" bordersize="1" >
+    <HorizontalLayout height="20" >
+      <Control width="480"/>
+      <Button name="sys_closebtn" padding="0,7,0,0" width="10" height="10" normalimage="file='image\dlgclose.png' source='0,0,10,10' " hotimage="file='image\dlgclose.png' source='10,0,20,10'" pushedimage="file='image\dlgclose.png' source='20,0,30,10'" tooltip="关闭"  />
+    </HorizontalLayout>
+    <VerticalLayout inset="15,15,15,0">
+      <HorizontalLayout>
+        <VerticalLayout name="LinkPage">
+          <HorizontalLayout>
+            <TabLayout name="linktab" padding="0,0,0,0">
+
+              <VerticalLayout name="publicLinking" padding="35,40,0,0">
+                <Text text="正在获取分享链接..." bkimage="file='common\loadding.png' dest='0,0,16,16' " textpadding="20,0,0,0" font="1" textcolor="#ff29913c"/>
+              </VerticalLayout>
+
+              <VerticalLayout name="publicLink" padding="0,40,0,10">
+                <VerticalLayout padding="10,0,0,0">
+                  <HorizontalLayout  height="24">
+                    <Label name="tip" bkimage="file='common\correct.PNG' source='0,0,24,24' dest='0,0,24,24' " textpadding="28,0,0,0" text="成功获取链接，复制后发送给好友就可以啦！" font="1" align="left" textcolor="#ff29913c"/>
+                  </HorizontalLayout>
+
+                  <Container name="copyok_place" height="31" />
+                  <HorizontalLayout height="25" padding="28,0,0,0">
+                    <Label text="下载链接：" align="left" width="65" />
+                    <Edit name="Label_Link" textpadding="4,2,2,4" enabled="false" padding="0,0,0,0" font="1" bordercolor="#FFcecece" textcolor="#FFcccccc" width="245" height="25" bordersize="1" readonly="true" />
+                    <Button name="Btn_copy" text="复制" width="75" align="vcenter" padding="4,0,0,0"  height="25" textcolor="#FFFFFFFF" disabledtextcolor="#FFc1c0c0" normalimage="file='common/normal_button.png' source='0,0,131,34' corner='2,2,2,2'" hotimage="file='common/normal_button.png' source='131,0,262,34' corner='2,2,2,2'" pushedimage="file='common/normal_button.png' source='262,0,393,34' corner='2,2,2,2'" disabledimage="file='common/normal_button.png' source='393,0,524,36' corner='2,2,2,2'" focusedimage="file='common/normal_button.png' source='131,0,262,34' corner='2,2,2,2'"/>
+                    <Text name="link_view" padding="5,0,0,0" text="{a}查 看{/a}" width="80" align="vcenter" height="25" showhtml="true" textcolor="#FF0095CD"/>
+                    <Validator name="CopyValidator" targetcontrol="Btn_copy" inset="4,4,4,4">
+                      <Text name="CopySuccessText" text="复制成功" align="vcenter" />
+                    </Validator>
+                  </HorizontalLayout>
+                  <HorizontalLayout padding="28,20,0,0" height="18">
+                    <HorizontalLayout name="passwordUI"  width="130">
+                      <Label text="访问密码：" align="left" showhtml="true" padding="0,0,0,0" width="65" />
+                      <Edit name="link_password" text="" font="1"  textpadding="3,0,0,0" bkcolor="#FFf0f0f0" nativebkcolor="#FFf0f0f0" width="60" readonly="true" padding="0,0,0,0" />
+                    </HorizontalLayout>
+                    <Text name="link_code" padding="65,0,0,0" text="{a}生成访问密码{/a}" width="80" align="left" showhtml="true" textcolor="#FF0095CD"/>
+                    <Text name="link_code_cancle" visible="false" text="{a}取消访问密码{/a}" width="80" align="left" showhtml="true" textcolor="#FF0095CD"/>
+                  </HorizontalLayout >
+                </VerticalLayout>
+
+              </VerticalLayout>
+
+              <VerticalLayout name="publicLinkFailed" padding="0,40,0,0">
+                <HorizontalLayout >
+                  <Text name="linkError" bkimage="file='common\error.png' source='0,0,24,24' dest='0,0,24,24' " textpadding="28,3,0,0" text="成功获取链接，复制后发送给好友就可以啦！" font="1" align="left" textcolor="#fff36206"/>
+                </HorizontalLayout>
+                <HorizontalLayout height="30" padding="28,0,0,0">
+                  <Label text="下载链接：" enabled="false" align="left" width="65" />
+                  <Edit enabled="false" textpadding="4,2,2,4" padding="0,2,0,0" bordercolor="#FFcecece" textcolor="#FFcccccc" width="245" height="25" bordersize="1" readonly="true" />
+                  <Button enabled="false" text="复制" width="75" align="center" padding="4,2,0,0"  height="25" textcolor="#FFFFFFFF" disabledtextcolor="#FFc1c0c0" normalimage="file='common/normal_button.png' source='0,0,131,34' corner='2,2,2,2'" hotimage="file='common/normal_button.png' source='131,0,262,34' corner='2,2,2,2'" pushedimage="file='common/normal_button.png' source='262,0,393,34' corner='2,2,2,2'" disabledimage="file='common/normal_button.png' source='393,0,524,36' corner='2,2,2,2'" focusedimage="file='common/normal_button.png' source='131,0,262,34' corner='2,2,2,2'"/>
+                  <Text enabled="false" padding="5,0,0,0" text="查 看" width="80" align="vcenter" showhtml="true" />
+                </HorizontalLayout>
+
+                <HorizontalLayout padding="28,20,0,0" height="18">
+                  <Text padding="0,0,0,0" enabled="false"  text="生成访问密码" width="80" align="left" showhtml="true" />
+                </HorizontalLayout >
+                <Control />
+              </VerticalLayout>
+
+            </TabLayout>
+            <!--<Control width="1" bordersize="1" bordercolor="#FFF2F2F2" />-->
+          </HorizontalLayout>
+          <Control height="1" bordersize="1" bordercolor="#FFF2F2F2" />
+          <HorizontalLayout height="50" inset="0,0,0,0">
+            <Label text="请勿发布淫秽、暴力、侵权等违法内容，金山云保留依法处理权力。" align="left|vcenter" enabled="false" textpadding="0,0,0,0"/>
+            <Button name="Btn_cancleShare" text="取消链接" padding="0,9,0,0" visible="false" width="74" height="28" textcolor="#FF717171" disabledtextcolor="#FFc1c0c0" normalimage="file='common/cancel_button.png' source='0,0,131,34' corner='2,2,2,2'" hotimage="file='common/cancel_button.png' source='131,0,262,34' corner='2,2,2,2'" pushedimage="file='common/cancel_button.png' source='262,0,393,34' corner='2,2,2,2'" disabledimage="file='common/cancel_button.png' source='393,0,524,36' corner='2,2,2,2'" />
+            <Button name="Btn_cancle" text="取消" padding="0,9,0,0" width="74" height="28" textcolor="#FF717171" disabledtextcolor="#FFc1c0c0" normalimage="file='common/cancel_button.png' source='0,0,131,34' corner='2,2,2,2'" hotimage="file='common/cancel_button.png' source='131,0,262,34' corner='2,2,2,2'" pushedimage="file='common/cancel_button.png' source='262,0,393,34' corner='2,2,2,2'" disabledimage="file='common/cancel_button.png' source='393,0,524,36' corner='2,2,2,2'" />
+          </HorizontalLayout>
+        </VerticalLayout>
+      </HorizontalLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

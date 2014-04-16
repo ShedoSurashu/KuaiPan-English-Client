@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <FileListItem height="54" menu="true" inset="0,0,2,0" >
+		<ContainerItem name="container" menu="true" >
+			<HorizontalLayout name="fileInfoUI" inset="16,0,0,0">
+				<Icon name="fileIcon" width="34" height="34" padding="6,9,0,0"  mouse="false"/>
+				<Edit name="nameEdit" height="24" padding="8,14,0,0" text="" showhtml="true" visible="false" bordersize="1" bordercolor="#FF6F645A" textpadding="4,0,1,0" textcolor="#FF191919" />
+				<Label name="fileName" text="" showhtml="true" visible="true" textcolor="#FF6F645A" endellipsis="true" textpadding="12,0,0,0" mouse="false" bordersize="0" />				
+			</HorizontalLayout>
+		</ContainerItem>
+		<ContainerItem width="65" menu="true">
+			<Label name="fileSize" text="" showhtml="true" textcolor="#FF6F645A" endellipsis="true" align="right" textpadding="4,0,3,0" mouse="false" />
+		</ContainerItem>
+		<ContainerItem width="80" menu="true">
+			<Label name="modifyTime" align="right" text="" showhtml="true" textcolor="#FF6F645A" endellipsis="true" textpadding="4,0,3,0" mouse="false" />
+		</ContainerItem>
+		<ContainerItem menu="true" inset="0,10,0,0">
+			<Control name="statusIcon" width="15" mouse="false" />
+		</ContainerItem>
+  </FileListItem>
+</Window>

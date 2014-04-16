@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="324,380" sizebox="4,4,6,6" caption="0,0,0,40" bktrans="false" roundcorner="3,3" linkfontcolor="#FF19A8E8" linkhoverfontcolor="#FF2ABAF6" >
+  <Font name="微软雅黑" size="12" default="true" />
+  <Font name="微软雅黑" size="13" bold="true" />
+  <Font name="微软雅黑" size="14" />
+  <Include source="scrollbar.xml" />
+
+  <Default name="Validator" value="bkimage=&quot;file='image/balloon_bg.png' corner='1,1,1,1'&quot; arrowimage=&quot;file='image/balloon_arrow.png' source='0,0,11,11'&quot;" />
+  <Default name="Edit" value="disabledimage=&quot;file='image/edit.png' source='0,0,7,7' corner='3,3,3,3'&quot; normalimage=&quot;file='image/edit.png' source='7,0,14,7' corner='3,3,3,3'&quot; hotimage=&quot;file='image/edit.png' source='7,0,14,7' corner='3,3,3,3'&quot; focusedimage=&quot;file='image/edit.png' source='14,0,21,7' corner='3,3,3,3'&quot;" />
+  <VerticalLayout  bkimage="file='image/dlgbg.png' corner='3,42,3,3'" inset="1,1,1,1">
+    <!--标题-->
+    <HorizontalLayout name="titleLayout" height="40">
+      <HorizontalLayout inset="10,10,0,0" width="90">
+        <Control bkimage="file='image/login_logo.png'" width="70" height="23" />        
+      </HorizontalLayout>
+
+      <Control height="1" />
+      <HorizontalLayout width="37" padding="0,0,0,0">
+        <Button name="btnmin" width="30" height="20" visible="false" normalimage="file='image/dlgsysbtn.png' source='0,0,30,20'" hotimage="file='image/dlgsysbtn.png' source='30,0,60,20'" pushedimage="file='image/dlgsysbtn.png' source='60,0,90,20'" />
+        <Button name="btnclose" padding="10,8,0,0" width="20" height="20" normalimage="file='image/title_close.png' source='0,0,20,20'" hotimage="file='image/title_close.png' source='20,0,40,20'" pushedimage="file='image/title_close.png' source='40,0,60,20'" tooltip="关闭" />
+      </HorizontalLayout>
+    </HorizontalLayout>
+
+    <VerticalLayout name="bodyLayout" inset="30,15,30,0" bkcolor="#FFFFFFFF">
+      <HorizontalLayout height="34">
+        <Option name="optphone" text="手机号注册" group="g" selected="true" selectedtextcolor="#FFFFFFFF" normalimage="file='image/regtab.png' source='0,0,5,5' corner='2,2,2,2'" hotimage="file='image/regtab.png' source='5,0,10,5' corner='2,2,2,2'" selectedimage="file='image/regtab.png' source='10,0,15,5' corner='2,2,2,2'"/>
+        <Option name="optemail" text="邮箱注册" group="g" selectedtextcolor="#FFFFFFFF" normalimage="file='image/regtab.png' source='15,0,20,5' corner='2,2,2,2'" hotimage="file='image/regtab.png' source='20,0,25,5' corner='2,2,2,2'" selectedimage="file='image/regtab.png' source='25,0,30,5' corner='2,2,2,2'"/>
+      </HorizontalLayout>
+      
+      <Text name="errortip" height="20" textcolor="#FFF44454" align="left" showhtml="true" padding="10,10,0,0"/>
+      
+      <TabLayout name="tabPages" bkcolor="#FFFFFFFF">
+        <VerticalLayout name="phoneLayout" childpadding="10" bkcolor="#FFFFFFFF">
+          
+          <Edit name="editphone" height="34" textcolor="#FF6F645A" bkcolor="#FFF8F9FC" textpadding="10,3,40,3" prompttext="填写手机号"  />
+          <HorizontalLayout height="34">
+            <Edit name="editvcode"  textcolor="#FF6F645A" bkcolor="#FFF8F9FC" textpadding="10,3,40,3" prompttext="验证码"  />
+            <Button name="btngetvcode" padding="1,0,0,0" text="获取验证码" textcolor="#FFFFFFFF" disabledtextcolor="#FFBEB5AE" normalimage="file='image/login_btn.png' source='0,0,15,36' corner='3,3,3,3'" hotimage="file='image/login_btn.png' source='15,0,30,36' corner='3,3,3,3'" pushedimage="file='image/login_btn.png' source='30,0,45,36' corner='3,3,3,3'" disabledimage="file='image/login_btn.png' source='45,0,60,36' corner='3,3,3,3'"/>
+          </HorizontalLayout>
+          <Edit name="editphonepwd1" height="34" textcolor="#FF6F645A" bkcolor="#FFF8F9FC" textpadding="10,3,40,3" password="true" prompttext="填写密码，6-32个字符"  />
+          <Edit name="editphonepwd2" height="34" textcolor="#FF6F645A" bkcolor="#FFF8F9FC" textpadding="10,3,40,3" password="true" prompttext="再次输入密码"  />
+
+          <HorizontalLayout height="20" padding="1,-6,0,0">
+            <CheckBox name="chkphonereaded" selected="true" text="我已阅读并接受" width="106" textcolor="#FF6F645A" textpadding="15,3,0,0" normalimage="file='image/checkbox.png' source='0,0,14,14' dest='0,5,14,19'" selectedimage="file='image/checkbox.png' source='14,0,28,14' dest='0,5,14,19'"/>                        
+            <Text name="txtlisence" showhtml="true" padding="0,3,0,3" align="right" text="{a http:www.kuaipan.cn/protocol.htm?source=1}《用户协议》{/a}" />
+          </HorizontalLayout>
+
+          <Button name="btnregphone" text="注册" height="34" padding="0,10,0,0" font="2" textcolor="#FFFFFFFF" disabledtextcolor="#FF9A9CAB" normalimage="file='image/login_btn.png' source='0,0,15,36' corner='3,3,3,3'" hotimage="file='image/login_btn.png' source='15,0,30,36' corner='3,3,3,3'" pushedimage="file='image/login_btn.png' source='30,0,45,36' corner='3,3,3,3'" disabledimage="file='image/login_btn.png' source='45,0,60,36' corner='3,3,3,3'"/>
+
+          <Validator name="phonevalid" targetcontrol="editphone" inset="4,4,4,4">
+            <RequiredValidator text="手机号不能为空" align="vcenter" />
+            <RegexValidator text="请输入正确的手机号" align="vcenter" expression="^[1][3-8]{1}[0-9]{9}$" icase="true" />            
+          </Validator>
+
+          <Validator name="vcodevalid" targetcontrol="editvcode" inset="4,4,4,4">
+            <RequiredValidator text="验证码不能为空" align="vcenter" />            
+          </Validator>
+          
+          <Validator name="editphonepwd1_valid" targetcontrol="editphonepwd1"  inset="4,4,4,4">
+            <!--<LengthValidator text="请输入6-32位字母和数字组合的密码" minlen="6" maxlen="32"/>-->
+            <RegexValidator text="{p}请输入6-32位字母和数字组合的密码{/p}{p}不包含空字符{/p}" expression="^[^\s]{6,32}$" showhtml="true" />
+          </Validator>
+
+          <Validator name="editphonepwd2_valid" targetcontrol="editphonepwd2"  inset="4,4,4,4">
+            <RegexValidator text="{p}请输入6-32位字母和数字组合的密码{/p}{p}不包含空字符{/p}" expression="^[^\s]{6,32}$" showhtml="true" />
+            <Text name="phonePwdNotEqual" text="两次输入密码不一致" align="vcenter" />
+          </Validator>
+          
+          <Control />
+        </VerticalLayout>
+
+        <VerticalLayout name="emailLayout" childpadding="10">
+          <Edit name="editemail" height="34" textcolor="#FF6F645A" bkcolor="#FFF8F9FC" textpadding="10,3,40,3" prompttext="填写常用邮箱"  />
+          <Edit name="editemailpwd1" height="34" password="true" textcolor="#FF6F645A" bkcolor="#FFF8F9FC" textpadding="10,3,40,3" prompttext="填写密码，6-32个字符"  />
+          <Edit name="editemailpwd2" height="34" password="true" textcolor="#FF6F645A" bkcolor="#FFF8F9FC" textpadding="10,3,40,3" prompttext="再次输入密码"  />
+          <HorizontalLayout height="20" padding="1,-6,0,0">
+            <CheckBox name="chkemailreaded" selected="true" text="我已阅读并接受" width="106" textcolor="#FF6F645A" textpadding="15,3,0,0" normalimage="file='image/checkbox.png' source='0,0,14,14' dest='0,5,14,19'" selectedimage="file='image/checkbox.png' source='14,0,28,14' dest='0,5,14,19'"/>
+            <Text name="txtlisence" showhtml="true" padding="0,3,0,3" align="right" text="{a http:www.kuaipan.cn/protocol.htm?source=1}《用户协议》{/a}" />
+          </HorizontalLayout>
+          <Button name="btnregemail" text="注册" height="34" padding="0,23,0,0" font="2" textcolor="#FFFFFFFF" disabledtextcolor="#FF9A9CAB" normalimage="file='image/login_btn.png' source='0,0,15,36' corner='3,3,3,3'" hotimage="file='image/login_btn.png' source='15,0,30,36' corner='3,3,3,3'" pushedimage="file='image/login_btn.png' source='30,0,45,36' corner='3,3,3,3'" disabledimage="file='image/login_btn.png' source='45,0,60,36' corner='3,3,3,3'"/>
+
+          <Validator name="emailvalid" targetcontrol="editemail" inset="4,4,4,4">
+            <RequiredValidator text="邮箱地址不能为空" align="vcenter" />
+            <RegexValidator text="请输入正确的邮箱地址" align="vcenter" expression="^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$" icase="true" />
+            <LengthValidator minlen="0" maxlen="128" align="vcenter" text="邮箱地址过长，不能超过128个字符" />
+          </Validator>
+
+          <Validator name="editemailpwd1_valid" targetcontrol="editemailpwd1"  inset="4,4,4,4">
+            <!--<LengthValidator text="请输入6-32位字母和数字组合的密码" minlen="6" maxlen="32"/>-->
+            <RegexValidator text="{p}请输入6-32位字母和数字组合的密码{/p}{p}不包含空字符{/p}" expression="^[^\s]{6,32}$" showhtml="true" />
+          </Validator>
+
+          <Validator name="editemailpwd2_valid" targetcontrol="editemailpwd2"  inset="4,4,4,4">
+            <RegexValidator text="{p}请输入6-32位字母和数字组合的密码{/p}{p}不包含空字符{/p}" expression="^[^\s]{6,32}$" showhtml="true" />
+            <Text name="emailPwdNotEqual" text="两次输入密码不一致" align="vcenter" />
+          </Validator>
+        </VerticalLayout>        
+      </TabLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

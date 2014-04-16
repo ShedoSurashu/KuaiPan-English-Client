@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollbarConfig>	
+	<Default name="VScrollBar" value="showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; width=&quot;7&quot; thumbminsize=&quot;30&quot; thumbnormalimage=&quot;file='image/vscrollbar.png' source='0,0,7,8' corner='3,3,3,3'&quot; thumbhotimage=&quot;file='image/vscrollbar.png' source='7,0,14,8' corner='3,3,3,3'&quot; thumbpushedimage=&quot;file='image/vscrollbar.png' source='7,0,14,8' corner='3,3,3,3'&quot; bknormalimage=&quot;file='image/scrollbarbg.png' corner='1,1,1,1'&quot; " />
+	<Default name="HScrollBar" value="showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; height=&quot;10&quot; thumbminsize=&quot;30&quot; thumbnormalimage=&quot;file='image/hscrollbar_normal.png' corner='3,1,3,1'&quot; thumbhotimage=&quot;file='image/hscrollbar_hover.png' corner='2,1,2,1'&quot; thumbpushedimage=&quot;file='image/hscrollbar_hover.png' corner='2,1,2,1'&quot; bknormalimage=&quot;file='image/scrollbarbg.png' corner='1,1,1,1'&quot; " />
+</ScrollbarConfig>
