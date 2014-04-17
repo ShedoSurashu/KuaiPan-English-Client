@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window size="324,248" bktrans="true" linkfontcolor="#FF0BBC57" caption="0,0,0,30" roundcorner="3,3" xmlns="http://tempuri.org/skin.xsd">
   <Font name="微软雅黑" size="12" default="true" />
   <Font name="微软雅黑" size="13" bold="true" />
@@ -11,7 +11,7 @@
         <Control bkimage="file='image/about_logo.png'" width="102" height="22" />
       </HorizontalLayout>
       <HorizontalLayout width="37" padding="0,0,0,0">
-        <Button name="btnclose" padding="10,10,0,0" width="20" height="20" normalimage="file='image/title_close.png' source='0,0,20,20'" hotimage="file='image/title_close.png' source='20,0,40,20'" pushedimage="file='image/title_close.png' source='40,0,60,20'" tooltip="关闭" />
+        <Button name="btnclose" padding="10,10,0,0" width="20" height="20" normalimage="file='image/title_close.png' source='0,0,20,20'" hotimage="file='image/title_close.png' source='20,0,40,20'" pushedimage="file='image/title_close.png' source='40,0,60,20'" tooltip="Close" />
       </HorizontalLayout>
     </HorizontalLayout>
 

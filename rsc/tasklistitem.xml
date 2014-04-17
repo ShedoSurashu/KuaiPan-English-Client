@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window linkfontcolor="#FF1FA663">
   <TaskListItem height="56">
     <HorizontalLayout>
@@ -18,7 +18,7 @@
               <Progress name="itemprogress" padding="5,5,0,0" height="7" width="125" mouse="false" value="4" bkimage="file='image/progressbg.png' corner='3,4,3,3'" foreimage="file='image/progressfg.png' corner='3,4,3,3'"/>
               <Control width="10"/>
               <TaskListItemText name="linkopt1" showhtml="true" text="{a}覆盖{/a}" visible="false"/>
-              <TaskListItemText name="linkopt2" showhtml="true" text="{a}继续{/a}" visible="false"/>
+              <TaskListItemText name="linkopt2" showhtml="true" text="{a}Continue{/a}" visible="false"/>
               <Text name="itemspeed" text="" textcolor="#FFA19A93" mouse="false" width="80" />
               <Text name="resttime" textcolor="#FFA19A93" mouse="false" visible="false"/>
               <Control height="4"/>

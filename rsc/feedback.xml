@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window name="win" size="482,380" caption="0,0,0,40" linkfontcolor="#FF32B35D" roundcorner="3,3" xmlns="http://tempuri.org/skin.xsd">
   <Font name="微软雅黑" size="12" default="true" />
   <Font name="微软雅黑" size="14" />
@@ -9,7 +9,7 @@
   <VerticalLayout bkimage="file='image/normal_bg.png' corner='4,47,4,4'" inset="1,1,1,1">
     <HorizontalLayout name="titleLayout" height="40" >
       <HorizontalLayout inset="6,0,0,0">
-        <Label text="意见反馈" name="title" font="2" textcolor="#FFD7FFE4" padding="3,0,0,0"/>
+        <Label text="Report Bugs" name="title" font="2" textcolor="#FFD7FFE4" padding="3,0,0,0"/>
       </HorizontalLayout>
       <Control height="1" />
       <HorizontalLayout width="37" padding="0,0,0,0">
@@ -18,29 +18,29 @@
     </HorizontalLayout>
 
     <VerticalLayout name="Feedback_post" padding="0,0,0,0" inset="13,0,13,0">
-      <Label text="欢迎您在这里反馈问题，我们尽快处理并给您答复" align="top" padding="0,17,0,3" />
-      <RichEdit inset="15,8,15,15" name="Edit_Detaile" bordercolor="#FFcecece" padding="0,0,0,0" bordersize="1" height="134" width="454" menu="true" autovscroll="true" vscrollbar="true" tooltip="请描述您遇到的问题"/>
+      <Label text="Send us your bug report and we'll deal with it as soon as possible." align="top" padding="0,17,0,3" />
+      <RichEdit inset="15,8,15,15" name="Edit_Detaile" bordercolor="#FFcecece" padding="0,0,0,0" bordersize="1" height="134" width="454" menu="true" autovscroll="true" vscrollbar="true" tooltip="Describe your problem."/>
       <Validator name="l_detailValidator" targetcontrol="Edit_Detaile" inset="4,4,4,4">
-        <RequiredValidator text="请填写问题描述" />
+        <RequiredValidator text="Fill in the description of your problem." />
       </Validator>
-      <Label name="tip"  text="请留下您的联系方式" padding="0,10,0,0" textcolor="#FF9C9C9C"/>
+      <Label name="tip"  text="Please leave your contact info." padding="0,10,0,0" textcolor="#FF9C9C9C"/>
       <Control height="10"/>
       <VerticalLayout width="430"   >
         <HorizontalLayout height="30">
           <Edit name="Edit_Email" bordercolor="#FFcecece" width="231" height="30" bordersize="1" />
-          <Label text="我们会尽快与您取得联系" padding="10,0,0,0" textcolor="#FF9C9C9C"/>
+          <Label text="We will contact you as soon as possible." padding="10,0,0,0" textcolor="#FF9C9C9C"/>
         </HorizontalLayout>
         <Validator name="l_emailValidator" targetcontrol="Edit_Email" inset="4,4,4,4">
-          <RequiredValidator text="联系方式不能为空" />
-          <!--<RegexValidator text="请输入正确的邮箱地址" expression="^[\s\S]*[@.]+[\s\S]*$" icase="true" />-->
+          <RequiredValidator text="Contact cannot be empty." />
+          <!--<RegexValidator text="Please enter a valid email." expression="^[\s\S]*[@.]+[\s\S]*$" icase="true" />-->
         </Validator>
       </VerticalLayout>
     </VerticalLayout>
 
     <HorizontalLayout height="46" childpadding="16" inset="0,0,20,0" >
       <Control />
-      <Button name="Btn_Feedback" text="确定" width="106" height="35" font="1" textcolor="#FFFFFFFF" normalimage="file='image/green_btn.png' source='0,0,106,35' corner='2,2,2,2'" hotimage="file='image/green_btn.png' source='106,0,212,35' corner='2,2,2,2'" pushedimage="file='image/green_btn.png' source='212,0,318,35' corner='2,2,2,2'" />
-      <Button name="Btn_Finish" 	text="取消" width="106" height="35" font="1" textcolor="#FF000000" normalimage="file='image/white_btn.png' source='0,0,106,35' corner='2,2,2,2'" hotimage="file='image/white_btn.png' source='106,0,212,35' corner='2,2,2,2'" pushedimage="file='image/white_btn.png' source='212,0,318,35' corner='2,2,2,2'" />
+      <Button name="Btn_Feedback" text="Send" width="106" height="35" font="1" textcolor="#FFFFFFFF" normalimage="file='image/green_btn.png' source='0,0,106,35' corner='2,2,2,2'" hotimage="file='image/green_btn.png' source='106,0,212,35' corner='2,2,2,2'" pushedimage="file='image/green_btn.png' source='212,0,318,35' corner='2,2,2,2'" />
+      <Button name="Btn_Finish" 	text="Close" width="106" height="35" font="1" textcolor="#FF000000" normalimage="file='image/white_btn.png' source='0,0,106,35' corner='2,2,2,2'" hotimage="file='image/white_btn.png' source='106,0,212,35' corner='2,2,2,2'" pushedimage="file='image/white_btn.png' source='212,0,318,35' corner='2,2,2,2'" />
     </HorizontalLayout>
   </VerticalLayout>
 </Window>

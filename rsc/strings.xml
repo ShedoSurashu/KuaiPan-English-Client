@@ -48,7 +48,7 @@
   </Group>
 
   <Group name="tasklistdlg">
-    <string name="STR_OPT_REPLACE" value="{a}覆盖{/a}" />
+    <string name="STR_OPT_REPLACE" value="{a}Replace{/a}" />
     <string name="STR_OPT_CONTINU" value="{a}Continue{/a}" />
     <string name="STR_OPT_RETRY" value="{a}Retry{/a}" />
     <string name="STR_OPT_SAVEAS" value="{a}Save as...{/a}" />
@@ -60,23 +60,23 @@
   </Group>
 
   <Group name="PublicLink">
-    <string name="STR_PUBLINK_GETTING" value="正在获取外链..." />
-    <string name="STR_PUBLINK_FAILED" value="获取分享链接失败，请重试" />
-    <string name="STR_PUBLINK_DELLINK" value="成功取消分享链接                     " />
-    <string name="STR_PUBLINK_DELLINK_FAILED" value="取消分享链接失败" />
-    <string name="STR_PUBLINK_CODE" value="访问密码：" />
-    <string name="STR_PUBLINK_CODELINK" value="{a}生成访问密码{/a}" />
-    <string name="STR_PUBLINK_CANCLE_CODELINK" value="{a}取消访问密码{/a}" />
+    <string name="STR_PUBLINK_GETTING" value="Retrieving link..." />
+    <string name="STR_PUBLINK_FAILED" value="Failed to get share link." />
+    <string name="STR_PUBLINK_DELLINK" value="Successfully canceled share link." />
+    <string name="STR_PUBLINK_DELLINK_FAILED" value="Failed to cancel share link." />
+    <string name="STR_PUBLINK_CODE" value="Access Password：" />
+    <string name="STR_PUBLINK_CODELINK" value="{a}Generate Access Password{/a}" />
+    <string name="STR_PUBLINK_CANCLE_CODELINK" value="{a}Cancel Access Password{/a}" />
 
-    <string name="STR_PUBLINK_CLAN_EXIST" value="该文件的父目录(或子目录)已被发布为外链。" />
-    <string name="STR_PUBLINK_REVIEWING" value="文件名含有敏感词，需要审核后才能开放下载。" />
-    <string name="STR_PUBLINK_BAD_FNAME" value="文件名在黑名单中。" />
-    <string name="STR_PUBLINK_BAD_SHA1" value="文件内容在黑名单中。" />
+    <string name="STR_PUBLINK_CLAN_EXIST" value="Parent folder of the file (or subfolder) has a share link." />
+    <string name="STR_PUBLINK_REVIEWING" value="File name contains sensitive words." />
+    <string name="STR_PUBLINK_BAD_FNAME" value="File name is in the blacklist." />
+    <string name="STR_PUBLINK_BAD_SHA1" value="Contents of the file is in the blacklist." />
     <string name="STR_PUBLINK_TOO_OFTEN" value="发布外链过于频繁，请稍后再试。" />
     <string name="STR_PUBLINK_REJECT" value="该文件审查未通过。" />
-    <string name="STR_PUBLINK_EMPTY_FILE" value="该文件内容为空，不能发布外链" />
+    <string name="STR_PUBLINK_EMPTY_FILE" value="The file is empty." />
     <string name="STR_PUBLINK_DEEPTH_OVER_LIMIT" value="文件夹深度或文件数量已达外链最大限制" />
-    <string name="STR_PUBLINK_UNKNOW" value="可能遇到网络问题，请重试。" />
+    <string name="STR_PUBLINK_UNKNOW" value="There are network problems. Try again later." />
 
     <string name="STR_PUBLINK_WEIBO_SHARE" value="我正在使用 @快盘 分享了文件 %s，欢迎大家下载分享" />
 

@@ -20,9 +20,9 @@
         <HorizontalLayout >
           <Control />
           <Option name="UserInfoBtn" height="30" endellipsis="true" textcolor="#FFFFFFFF" />
-          <Button name="btnset" padding="15,5,0,0" width="20" height="20" normalimage="file='main/title_menu.png' source='0,0,20,20'" hotimage="file='main/title_menu.png' source='20,0,40,20'" pushedimage="file='main/title_menu.png' source='40,0,60,20'" tooltip="设置" />
-          <Button name="btnmin" padding="7,5,0,0" width="20" height="20" normalimage="file='main/title_mini.png' source='0,0,20,20'" hotimage="file='main/title_mini.png' source='20,0,40,20'" pushedimage="file='main/title_mini.png' source='40,0,60,20'" tooltip="最小化"/>
-          <Button name="btnclose" padding="7,5,0,0" width="20" height="20" normalimage="file='image/title_close.png' source='0,0,20,20'" hotimage="file='image/title_close.png' source='20,0,40,20'" pushedimage="file='image/title_close.png' source='40,0,60,20'" tooltip="关闭" />
+          <Button name="btnset" padding="15,5,0,0" width="20" height="20" normalimage="file='main/title_menu.png' source='0,0,20,20'" hotimage="file='main/title_menu.png' source='20,0,40,20'" pushedimage="file='main/title_menu.png' source='40,0,60,20'" tooltip="Set Up" />
+          <Button name="btnmin" padding="7,5,0,0" width="20" height="20" normalimage="file='main/title_mini.png' source='0,0,20,20'" hotimage="file='main/title_mini.png' source='20,0,40,20'" pushedimage="file='main/title_mini.png' source='40,0,60,20'" tooltip="Minimize"/>
+          <Button name="btnclose" padding="7,5,0,0" width="20" height="20" normalimage="file='image/title_close.png' source='0,0,20,20'" hotimage="file='image/title_close.png' source='20,0,40,20'" pushedimage="file='image/title_close.png' source='40,0,60,20'" tooltip="Close" />
           <Control width="6" />
         </HorizontalLayout>
       </HorizontalLayout>

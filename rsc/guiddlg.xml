@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window size="652,452" roundcorner="3,3" caption="0,0,0,372" linkfontcolor="#FF1FA663">
   <Font name="微软雅黑" size="13" default="true" />
   <Font name="微软雅黑" size="13" bold="true" />
@@ -12,7 +12,7 @@
     
     <HorizontalLayout height="52" inset="15,19,19,0">      
       <Control />
-      <Button name="btnclose" width="11" height="11" normalimage="file='image/guid_btnclose.png' source='0,0,11,11'" hotimage="file='image/guid_btnclose.png' source='11,0,22,11'" pushedimage="file='image/guid_btnclose.png' source='22,0,33,11'" tooltip="关闭" />
+      <Button name="btnclose" width="11" height="11" normalimage="file='image/guid_btnclose.png' source='0,0,11,11'" hotimage="file='image/guid_btnclose.png' source='11,0,22,11'" pushedimage="file='image/guid_btnclose.png' source='22,0,33,11'" tooltip="Close" />
     </HorizontalLayout>
 
     <Control />
@@ -23,7 +23,7 @@
       <Option name="btnpage2" group="image_group" padding="7,10,0,0" selected="false" width="12" height="12" normalimage="file='image/guid_btnpage.png' source='0,0,12,12'" selectedimage="file='image/guid_btnpage.png' source='12,0,24,12'"/>
       <Option name="btnpage3" group="image_group" padding="7,10,0,0" selected="false" width="12" height="12" normalimage="file='image/guid_btnpage.png' source='0,0,12,12'" selectedimage="file='image/guid_btnpage.png' source='12,0,24,12'"/>
       <Control />
-      <Button name="btnok" width="96" height="30" text="马上使用" textcolor="#FFFFFFFF" disabledtextcolor="#FF9A9CAB" normalimage="file='image/guide_btn.png' source='0,0,5,5' corner='2,2,2,2'" hotimage="file='image/guide_btn.png' source='5,0,10,5' corner='2,2,2,2'" pushedimage="file='image/guide_btn.png' source='10,0,15,5' corner='2,2,2,2'" disabledimage="file='image/guide_btn.png' source='15,0,20,5' corner='2,2,2,2'"/>
+      <Button name="btnok" width="96" height="30" text="Get Started" textcolor="#FFFFFFFF" disabledtextcolor="#FF9A9CAB" normalimage="file='image/guide_btn.png' source='0,0,5,5' corner='2,2,2,2'" hotimage="file='image/guide_btn.png' source='5,0,10,5' corner='2,2,2,2'" pushedimage="file='image/guide_btn.png' source='10,0,15,5' corner='2,2,2,2'" disabledimage="file='image/guide_btn.png' source='15,0,20,5' corner='2,2,2,2'"/>
     </HorizontalLayout>
   </VerticalLayout>
 </Window>

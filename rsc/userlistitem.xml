@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window>
   <UserItem height="30">
     <HorizontalLayout inset="0,0,6,0">
@@ -8,7 +8,7 @@
         <Text name="item_tip" visible="false" mouse="false" showhtml="true" textcolor="#FFFFFFFF" />
       </VerticalLayout>
       
-      <Button name="item_del" visible="false" width="17" height="17" padding="0,6,0,0" tooltip="删除" normalimage="file='image/deluser.png' source='0,0,17,17'" hotimage="file='image/deluser.png' source='17,0,34,17'" pushedimage="file='image/deluser.png' source='34,0,51,17'"/>
+      <Button name="item_del" visible="false" width="17" height="17" padding="0,6,0,0" tooltip="Delete" normalimage="file='image/deluser.png' source='0,0,17,17'" hotimage="file='image/deluser.png' source='17,0,34,17'" pushedimage="file='image/deluser.png' source='34,0,51,17'"/>
       
     </HorizontalLayout>
   </UserItem>

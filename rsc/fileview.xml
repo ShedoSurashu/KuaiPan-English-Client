@@ -99,12 +99,12 @@
 
               <HorizontalLayout height="35">
                 <Control name="loginAnimation" width="55" height="35" padding="35,0,0,0"/>
-                <Label name="loginMsg" text="正在登录..." align="center" padding="5,0,5,0" />
+                <Label name="loginMsg" text="Logging in..." align="center" padding="5,0,5,0" />
               </HorizontalLayout>
 
               <HorizontalLayout height="26">
                 <Control />
-                <Button name="loginRetry" text="重试" width="76" height="26" visible="false" textcolor="#FF333333" normalimage="file='image/btn.png' source='0,0,7,26' corner='2,2,2,2'" hotimage="file='image/btn.png' source='7,0,14,26' corner='2,2,2,2'" pushedimage="file='image/btn.png' source='14,0,21,26' corner='2,2,2,2'" disabledimage="file='image/btn.png' source='21,0,28,26' corner='2,2,2,2'"/>
+                <Button name="loginRetry" text="Retry" width="76" height="26" visible="false" textcolor="#FF333333" normalimage="file='image/btn.png' source='0,0,7,26' corner='2,2,2,2'" hotimage="file='image/btn.png' source='7,0,14,26' corner='2,2,2,2'" pushedimage="file='image/btn.png' source='14,0,21,26' corner='2,2,2,2'" disabledimage="file='image/btn.png' source='21,0,28,26' corner='2,2,2,2'"/>
                 <Control />
               </HorizontalLayout>
 
@@ -130,7 +130,7 @@
               </HorizontalLayout>
 
               <HorizontalLayout height="20">
-                <Label name="emptytip" text="拖拽文件到这里可以直接上传" textcolor="#FF646464" align="center"/>
+                <Label name="emptytip" text="Drag and drop files here to upload." textcolor="#FF646464" align="center"/>
               </HorizontalLayout>
             </VerticalLayout>
 

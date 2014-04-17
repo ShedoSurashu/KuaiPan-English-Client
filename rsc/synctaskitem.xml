@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window linkfontcolor="#FF1FA663">
   <SyncTaskItem height="56">
     <HorizontalLayout>
@@ -8,7 +8,7 @@
 
           <VerticalLayout name="textLayout" padding="7,0,0,0">
             <HorizontalLayout>
-              <Label name="itemfilename" padding="10,0,0,0" text="自动同步" maxwidth="96" endellipsis="true" height="15" textcolor="#FF6F645A" mouse="false"/>
+              <Label name="itemfilename" padding="10,0,0,0" text="Syncing..." maxwidth="96" endellipsis="true" height="15" textcolor="#FF6F645A" mouse="false"/>
               <Control height="4"/>
             </HorizontalLayout>
 

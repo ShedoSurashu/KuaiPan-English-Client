@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window size="481,362" minsize="270,307" roundcorner="0,0" linkfontcolor="#ffff0000" caption="0,0,0,54" >
   <Font name="微软雅黑" size="12" default="true" />
   <Font name="微软雅黑" size="14" />
@@ -23,7 +23,7 @@
         </HorizontalLayout>
 
         <Control height="1" />
-        <Button name="btnclose" width="54" height="54" padding="0,0,0,0" normalimage="file='image/taskdlg_close.png' source='0,0,54,54'" hotimage="file='image/taskdlg_close.png' source='54,0,108,54'" pushedimage="file='image/taskdlg_close.png' source='108,0,162,54'" tooltip="关闭" />
+        <Button name="btnclose" width="54" height="54" padding="0,0,0,0" normalimage="file='image/taskdlg_close.png' source='0,0,54,54'" hotimage="file='image/taskdlg_close.png' source='54,0,108,54'" pushedimage="file='image/taskdlg_close.png' source='108,0,162,54'" tooltip="Close" />
 
       </HorizontalLayout>
 
@@ -32,13 +32,13 @@
       <!--工具栏-->
       <HorizontalLayout name="toolbarLayout" height="30" bkcolor="#FFF2F6F9" inset="0,5,0,5" visible="false">
         <Control width="13"/>
-        <Button name="btnrun" width="21" height="21" visible="false" tooltip="继续" normalimage="file='image/taskctrlbtn.png' source='0,0,15,15' dest='3,3,18,18'" hotimage="file='image/taskctrlbtn.png' source='15,0,30,15' dest='3,3,18,18'" pushedimage="file='image/taskctrlbtn.png' source='30,0,45,15' dest='3,3,18,18'" disabledimage="file='image/taskctrlbtn.png' source='45,0,60,15' dest='3,3,18,18'"/>
-        <Button name="btnpause" width="21" height="21" tooltip="暂停" normalimage="file='image/taskctrlbtn.png' source='60,0,75,15' dest='3,3,18,18'" hotimage="file='image/taskctrlbtn.png' source='75,0,90,15' dest='3,3,18,18'" pushedimage="file='image/taskctrlbtn.png' source='90,0,105,15' dest='3,3,18,18'" disabledimage="file='image/taskctrlbtn.png' source='105,0,120,15' dest='3,3,18,18'" />
+        <Button name="btnrun" width="21" height="21" visible="false" tooltip="Continue" normalimage="file='image/taskctrlbtn.png' source='0,0,15,15' dest='3,3,18,18'" hotimage="file='image/taskctrlbtn.png' source='15,0,30,15' dest='3,3,18,18'" pushedimage="file='image/taskctrlbtn.png' source='30,0,45,15' dest='3,3,18,18'" disabledimage="file='image/taskctrlbtn.png' source='45,0,60,15' dest='3,3,18,18'"/>
+        <Button name="btnpause" width="21" height="21" tooltip="Pause" normalimage="file='image/taskctrlbtn.png' source='60,0,75,15' dest='3,3,18,18'" hotimage="file='image/taskctrlbtn.png' source='75,0,90,15' dest='3,3,18,18'" pushedimage="file='image/taskctrlbtn.png' source='90,0,105,15' dest='3,3,18,18'" disabledimage="file='image/taskctrlbtn.png' source='105,0,120,15' dest='3,3,18,18'" />
         <Control width="13"/>
-        <Button name="btndelete" width="21" height="21" tooltip="取消" normalimage="file='image/taskctrlbtn.png' source='120,0,135,15' dest='3,3,18,18'" hotimage="file='image/taskctrlbtn.png' source='135,0,150,15' dest='3,3,18,18'" pushedimage="file='image/taskctrlbtn.png' source='150,0,165,15' dest='3,3,18,18'" disabledimage="file='image/taskctrlbtn.png' source='165,0,180,15' dest='3,3,18,18'"/>
+        <Button name="btndelete" width="21" height="21" tooltip="Cancel" normalimage="file='image/taskctrlbtn.png' source='120,0,135,15' dest='3,3,18,18'" hotimage="file='image/taskctrlbtn.png' source='135,0,150,15' dest='3,3,18,18'" pushedimage="file='image/taskctrlbtn.png' source='150,0,165,15' dest='3,3,18,18'" disabledimage="file='image/taskctrlbtn.png' source='165,0,180,15' dest='3,3,18,18'"/>
         <Control />
-        <Text name="txtupload" text="上传：2/10" padding="0,0,10,0" textcolor="#FFA19A93"/>
-        <Text name="txtdownload" text="下载：2/10" padding="0,0,10,0" textcolor="#FFA19A93"/>
+        <Text name="txtupload" text="Upload：2/10" padding="0,0,10,0" textcolor="#FFA19A93"/>
+        <Text name="txtdownload" text="Download：2/10" padding="0,0,10,0" textcolor="#FFA19A93"/>
       </HorizontalLayout>
       <!--下面几个元素绝对定位，否则动态改变list元素时会出现重叠，未找到原因-->
       <HorizontalLayout height="38" inset="1,0,1,0">

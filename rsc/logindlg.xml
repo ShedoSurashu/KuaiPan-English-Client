@@ -32,7 +32,7 @@
              dropboxmoveleft="232" dropboxsize="260,100" dropbox="inset=&quot;2,2,2,2&quot;" itemhotbkcolor="#FF24B9F1" />
             
       <HorizontalLayout height="22" padding="0,8,0,0" bkcolor="#FFFFFFFF" >
-        <CheckBox name="chkremember" text="Keep?" width="72" textcolor="#FF6F645A" textpadding="15,1,0,0" normalimage="file='image/checkbox.png' source='0,0,14,14' dest='0,5,14,19'" selectedimage="file='image/checkbox.png' source='14,0,28,14' dest='0,5,14,19'"/>
+        <CheckBox name="chkremember" text="Keep?  " width="72" textcolor="#FF6F645A" textpadding="15,1,0,0" normalimage="file='image/checkbox.png' source='0,0,14,14' dest='0,5,14,19'" selectedimage="file='image/checkbox.png' source='14,0,28,14' dest='0,5,14,19'"/>
         <CheckBox name="chkauto" text="Autologin" width="72" textcolor="#FF6F645A" padding="6,0,0,0" textpadding="15,1,0,0" normalimage="file='image/checkbox.png' source='0,0,14,14' dest='0,5,14,19'" selectedimage="file='image/checkbox.png' source='14,0,28,14' dest='0,5,14,19'"/>
         <Control width="60"/>
         <Text name="txtforget" showhtml="true" padding="0,3,0,0" align="right" width="80" text="{a}Forgot?{/a}"/>
